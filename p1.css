@@ -1,0 +1,19 @@
+#photoList {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#photoList li {
+    margin-right: 10px;
+}
+
+#photoList img {
+    width: 250px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
